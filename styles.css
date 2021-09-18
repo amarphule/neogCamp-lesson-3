@@ -3,6 +3,7 @@
 :root {
   --primary-color: rgb(130, 68, 245);
   --dark-gray: rgb(63, 61, 61);
+  --off-white: gray;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -86,4 +87,14 @@ hr {
 }
 .hero .highlight {
   color: var(--primary-color);
+}
+
+/* Section */
+.section h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ow {
+  background-color: var(--off-white);
 }
