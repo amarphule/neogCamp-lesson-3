@@ -3,11 +3,13 @@
 :root {
   --primary-color: rgb(130, 68, 245);
   --dark-gray: rgb(63, 61, 61);
-  --off-white: gray;
+  --off-white: rgb(214, 212, 212);
 }
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 85%;
+  width: 100%;
 }
 hr {
   margin: 2rem 0rem;
@@ -18,7 +20,8 @@ hr {
   padding-right: 1rem;
 }
 .container-center {
-  max-width: 600px;
+  max-width: 900px;
+  width: 100%;
   margin: auto;
 }
 
@@ -29,14 +32,14 @@ hr {
 }
 .link-primary {
   background-color: var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   color: #fff;
 }
 
 .link-secondary {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 /* Lists */
@@ -77,7 +80,8 @@ hr {
   padding: 2rem;
 }
 .hero .hero-image {
-  max-width: 350px;
+  max-width: 80%;
+  width: 550px;
   display: block;
   margin: auto;
 }
@@ -85,6 +89,7 @@ hr {
 .hero .hero-heading {
   padding-top: 1rem;
   color: var(--dark-gray);
+  text-align: center;
 }
 .hero .highlight {
   color: var(--primary-color);
@@ -93,6 +98,9 @@ hr {
 /* Section */
 section {
   padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
@@ -108,7 +116,12 @@ section {
   color: #fff;
   text-align: center;
   border-top-right-radius: 0.5rem;
-  padding: 1rem;
+  padding: 2rem 1rem;
+}
+
+.footer-header {
+  font-size: large;
+  font-weight: bold;
 }
 
 .footer .link {
